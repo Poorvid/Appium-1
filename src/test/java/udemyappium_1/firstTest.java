@@ -27,6 +27,7 @@ public class firstTest {
 	public void setup() throws MalformedURLException , IOException{
 		
 		
+		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
 		
 	Runtime.getRuntime().exec("C:\\Users\\poorvid\\eclipse-workspace\\udemyappium_1\\src\\main\\resources\\startemulator.bat");
 	
