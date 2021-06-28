@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="udemyappium_1.firstTest" time="62.596" errors="0" skipped="2">
+<testsuite tests="1" failures="0" name="udemyappium_1.firstTest" time="4.386" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="15.0.2+7-27"/>
@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\poorvid\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf13202888735959069687.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\poorvid\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15641046975805014656.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Users\poorvid\Downloads\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/poorvid/Downloads/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/poorvid/Downloads/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\Java\jdk-11.0.11\bin;C:\Users\poorvid\AppData\Local\Android\Sdk\tools\bin;C:\Users\poorvid\AppData\Local\Android\Sdk\tools;C:\Users\poorvid\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Git\cmd;C:\Users\poorvid\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\poorvid\AppData\Local\Programs\Python\Python39\;C:\Users\poorvid\AppData\Local\Microsoft\WindowsApps;C:\Users\poorvid\AppData\Roaming\npm;C:\Users\poorvid\Downloads\eclipse-java-2021-03-R-win32-x86_64\eclipse;;."/>
     <property name="jdk.debug" value="release"/>
@@ -56,53 +56,5 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="udemyappium_1.firstTest" name="setup" time="62.594">
-    <failure message="An unknown server-side error occurred while processing the command. Original error: Error getting AVD with retry. Original error: Condition unmet after 61162 ms. Timing out.
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;POORVID&apos;, ip: &apos;172.27.59.150&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error getting AVD with retry. Original error: Condition unmet after 61162 ms. Timing out.
-    at getResponseForW3CError (C:\Users\poorvid\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\poorvid\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error getting AVD with retry. Original error: Condition unmet after 61162 ms. Timing out.
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;POORVID&apos;, ip: &apos;172.27.59.150&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error getting AVD with retry. Original error: Condition unmet after 61162 ms. Timing out.
-    at getResponseForW3CError (C:\Users\poorvid\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\poorvid\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at udemyappium_1.firstTest.setup(firstTest.java:31)
-</failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@57e1b0c
-</system-out>
-  </testcase>
-  <testcase classname="udemyappium_1.firstTest" name="testCal" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="udemyappium_1.firstTest" name="testCal2" time="0.001">
-    <skipped/>
-  </testcase>
+  <testcase classname="udemyappium_1.firstTest" name="testCal" time="4.386"/>
 </testsuite>
