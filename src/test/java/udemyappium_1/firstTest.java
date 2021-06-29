@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
-import java.util.concurrent.TimeUnit;
+//import java.util.concurrent.TimeUnit;
 
 public class firstTest {
 
@@ -28,9 +28,8 @@ public class firstTest {
 	public void setup() throws MalformedURLException , IOException{
 		
 		
-		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
-		
-	Runtime.getRuntime().exec("C:\\Users\\poorvid\\eclipse-workspace\\udemyappium_1\\src\\main\\resources\\startemulator.bat");
+			
+	Runtime.getRuntime().exec("$WORKSPACE\\src\\main\\resources\\startemulator.bat");
 	
 	 Runtime runtime = Runtime.getRuntime();
 	    try {
