@@ -48,7 +48,7 @@ public class firstTest {
 		capabilities.setCapability("appPackage", "com.android.calculator2");
 		capabilities.setCapability("appActivity", "com.android.calculator2.Calculator");
 		//driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-		driver = new AndroidDriver<>(new URL("http://172.27.59.150:4723/wd/hub"), capabilities);
+		driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
 	}
 
