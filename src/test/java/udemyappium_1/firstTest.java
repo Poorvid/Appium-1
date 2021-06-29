@@ -29,7 +29,7 @@ public class firstTest {
 		
 		
 			
-	Runtime.getRuntime().exec("$WORKSPACE\\src\\main\\resources\\startemulator.bat");
+	Runtime.getRuntime().exec("${WORKSPACE}\\src\\main\\resources\\startemulator.bat");
 	
 	 Runtime runtime = Runtime.getRuntime();
 	    try {
